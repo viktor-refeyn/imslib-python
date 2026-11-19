@@ -8309,12 +8309,33 @@ SWIGINTERN std::string iMS_distance_Sl_std_deci_Sg____str__(iMS::distance< std::
     // for std::tm
     #include <ctime>
 
+    // A default constructed FWVersion, which is what an invalid Controller or Synthesiser reports,
+    // leaves build_date uninitialised, and strftime() aborts the process on MSVC when a field of
+    // the date is out of range. Only format the date once it is known to be a real one.
+    static bool FWVersionHasBuildDate(const iMS::FWVersion& ver) {
+        if (ver.major < 0) return false;  // default constructed: do not read build_date at all
+        const std::tm& t = ver.build_date;
+        return t.tm_sec >= 0 && t.tm_sec <= 60
+            && t.tm_min >= 0 && t.tm_min <= 59
+            && t.tm_hour >= 0 && t.tm_hour <= 23
+            && t.tm_mday >= 1 && t.tm_mday <= 31
+            && t.tm_mon >= 0 && t.tm_mon <= 11
+            && t.tm_year >= 0 && t.tm_year <= 8099
+            && t.tm_wday >= 0 && t.tm_wday <= 6
+            && t.tm_yday >= 0 && t.tm_yday <= 365;
+    }
+
 SWIGINTERN std::string iMS_FWVersion___str__(iMS::FWVersion *self){
             std::ostringstream oss;
-            oss << *self;
+            if (FWVersionHasBuildDate(*self)) {
+                oss << *self;
+            } else {
+                oss << self->major << "." << self->minor << "." << self->revision;
+            }
             return oss.str();
         }
 SWIGINTERN std::string iMS_FWVersion_build_date_str(iMS::FWVersion *self){
+            if (!FWVersionHasBuildDate(*self)) return std::string();
             char buf[100];
             std::strftime(buf, sizeof(buf), "%Y-%m-%d %H:%M:%S", &self->build_date);
             return std::string(buf);        
