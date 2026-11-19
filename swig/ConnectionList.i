@@ -1,6 +1,7 @@
 %include "std_string.i"
 
 %template(IMSList) std::vector<std::shared_ptr<iMS::IMSSystem>>;
+SEQUENCE_TYPEHINT(std::vector<std::shared_ptr<iMS::IMSSystem>>, IMSList, IMSSystem)
 
     // Define a dummy mirror struct to replace the nested struct
     %inline %{
@@ -30,11 +31,20 @@ namespace iMS {
 %rename(_Scan) ConnectionList::Scan();
 %rename(_ScanInterface) ConnectionList::Scan(const std::string&, const std::vector<std::string>& = {});
 
+// Both return an empty pointer, which is None in Python, when no iMS System is found.
+// A typemap for one function needs the fully qualified name, even inside the namespace
+%typemap(pytyping) std::shared_ptr<iMS::IMSSystem> iMS::ConnectionList::Scan,
+                   std::shared_ptr<iMS::IMSSystem> iMS::ConnectionList::Find "typing.Optional[IMSSystem]"
+
 %extend ConnectionList {
     %pythoncode %{
+    @typing.overload
+    def Scan(self) -> "typing.Tuple[IMSSystem, ...]": ...
+    @typing.overload
+    def Scan(self, interfaceName: str, addressHints: "typing.Union[StringVector, typing.Sequence[str]]" = ...) -> "typing.Optional[IMSSystem]": ...
     def Scan(self, *args):
         """
-        Scan() -> list[IMSSystem]
+        Scan() -> tuple[IMSSystem, ...]
         Scan(interfaceName: str, addressHints: list[str] = []) -> IMSSystem or None
         """
         if not args:

@@ -50,6 +50,31 @@
 %include "typemaps.i"
 %include "std_shared_ptr.i"
 
+// Type hints in imslib.py (SWIG -typehints). SWIG's default hint for a wrapped class is
+// typing.Any: name the Python proxy class instead. Types that Python sees differently from C++
+// (custom in/out typemaps, shared_ptr) have their own pytyping typemap next to them.
+%typemap(pytyping) SWIGTYPE, SWIGTYPE *, SWIGTYPE &, SWIGTYPE &&, SWIGTYPE *const& "$pytypename"
+%typemap(pytyping) PyObject * "typing.Any"
+
+// A std::shared_ptr to a %shared_ptr class is the proxy class itself in Python
+%define SHARED_PTR_TYPEHINT(TYPE, PYNAME)
+%typemap(pytyping) std::shared_ptr< TYPE >, std::shared_ptr< TYPE > &, std::shared_ptr< TYPE > *,
+                   std::shared_ptr< const TYPE >, std::shared_ptr< const TYPE > &, std::shared_ptr< const TYPE > * "PYNAME"
+%enddef
+
+// A std::vector passed by value or by const reference takes the proxy class or any Python
+// sequence, and one returned that way is copied into a tuple
+%define SEQUENCE_TYPEHINT(TYPE, PYNAME, PYITEM)
+%typemap(pytyping, out="typing.Tuple[PYITEM, ...]") TYPE, const TYPE & "typing.Union[PYNAME, typing.Sequence[PYITEM]]"
+%enddef
+
+// The overloads of these library methods return different types, and SWIG annotates an overloaded
+// method with the return type of just one of them
+%feature("python:annotations", "0") std::vector::__getitem__;
+%feature("python:annotations", "0") std::vector::insert;
+%feature("python:annotations", "0") std::array::__getitem__;
+%feature("python:annotations", "0") std::map::erase;
+
 %include "ims_std_chrono.i"
 
 %template(ByteVector) std::vector<uint8_t>;
@@ -57,7 +82,18 @@
 %template(UUID) std::array<uint8_t, 16>;
 %template(VelGain) std::array<int16_t, 2>;
 
+SEQUENCE_TYPEHINT(std::vector<uint8_t>, ByteVector, int)
+SEQUENCE_TYPEHINT(std::vector<std::string>, StringVector, str)
+
+// A hint inside a class body cannot name a type that a member of that class is also called
+// (SequenceEntry.UUID, DDSScriptRegister.bytes): those hints use these aliases
+%pythoncode %{
+_UUID = UUID
+_bytes = bytes
+%}
+
 %shared_ptr(iMS::IMSSystem);
+SHARED_PTR_TYPEHINT(iMS::IMSSystem, IMSSystem)
 
 // Print UUID in friendly format
 %extend std::array<uint8_t, 16> {

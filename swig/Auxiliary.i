@@ -121,12 +121,14 @@ namespace iMS
     DDSScriptRegister(const DDSScriptRegister &);
     //    DDSScriptRegister &operator =(const DDSScriptRegister &);
     int append(const uint8_t&);
+    %typemap(pytyping) std::vector<uint8_t> bytes "_bytes"
     std::vector<uint8_t> bytes() const;
   };
 }
 
 //SWIG_STD_VECTOR_ENHANCED(iMS::DDSScriptRegister)
 %template(DDSScript) std::vector<iMS::DDSScriptRegister>;
+SEQUENCE_TYPEHINT(std::vector<iMS::DDSScriptRegister>, DDSScript, DDSScriptRegister)
 
 typedef std::vector<iMS::DDSScriptRegister> DDSScript;
 

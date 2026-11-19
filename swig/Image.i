@@ -253,6 +253,7 @@ namespace iMS {
 %shared_ptr(iMS::SequenceEntry)
 
 %attributeref(iMS::SequenceEntry, std::chrono::duration<double>&, SyncOutDelay, SyncOutDelay);
+%typemap(pytyping) std::array<uint8_t, 16> UUID "_UUID"
 %attribute2(iMS::SequenceEntry, %arg(std::array<uint8_t, 16>), UUID, UUID);
 %attribute(iMS::SequenceEntry, int, NumRpts, NumRpts);
 
@@ -278,6 +279,7 @@ namespace iMS {
 }
 
 %shared_ptr(iMS::ImageSequenceEntry)
+SHARED_PTR_TYPEHINT(iMS::ImageSequenceEntry, ImageSequenceEntry)
 
 %attributeref(iMS::ImageSequenceEntry, std::chrono::duration<double>&, PostImgDelay, PostImgDelay);
 %attribute(iMS::ImageSequenceEntry, int, ExtDiv, ExtDiv);
@@ -322,6 +324,7 @@ namespace iMS {
     void OnTermination(SequenceTermAction act, const ImageSequence* term_seq);
     const SequenceTermAction& TermAction() const;
     const int& TermValue() const;
+    %typemap(pytyping) const iMS::ImageSequence* TermInsertBefore "typing.Optional[ImageSequence]"
     const ImageSequence* ImageSequence::TermInsertBefore() const;
   };
 }

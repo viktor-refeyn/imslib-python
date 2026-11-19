@@ -69,9 +69,13 @@ namespace iMS
         }
 
         %pythoncode %{
-            def __iter__(self):
+            def __iter__(self) -> "typing.Iterator[FileSystemTableEntry]":
                 for i in range(len(self)):
                     yield self[i]
+            @typing.overload
+            def __getitem__(self, idx: int) -> "FileSystemTableEntry": ...
+            @typing.overload
+            def __getitem__(self, idx: slice) -> "typing.List[FileSystemTableEntry]": ...
             def __getitem__(self, idx):
                 if isinstance(idx, slice):
                     return [self[i] for i in range(*idx.indices(len(self)))]
@@ -97,6 +101,7 @@ namespace iMS
 }
 
 %apply unsigned int *INOUT { unsigned int & addr};
+%typemap(pytyping) unsigned int & addr "int"
 
 namespace iMS {
 
@@ -157,11 +162,17 @@ namespace iMS {
     // Disable auto cleanup (prevents 'res2 undeclared' error)
     %typemap(freearg) const std::vector<uint8_t>& "";
 
+    %typemap(pytyping) const std::vector<uint8_t>& "typing.Union[bytes, typing.List[int], typing.BinaryIO]"
+
     // C++ → Python  (used by Readback with no args)
     %typemap(out) std::vector<uint8_t> {
         $result = PyBytes_FromStringAndSize(
             reinterpret_cast<const char*>($1.data()), $1.size());
     }
+    %typemap(pytyping, out="bytes") std::vector<uint8_t> "typing.Union[ByteVector, typing.Sequence[int]]"
+
+    // bytes, or with a file-like object True once written to it. False if the readback failed
+    %typemap(pytyping) PyObject* iMS::UserFileReader::Readback "typing.Union[bytes, bool]"
 
     // ---------- Extended UserFileReader.Readback ----------
     // Supports:

@@ -38,9 +38,13 @@ namespace iMS {
         }
 
         %pythoncode %{
-            def __iter__(self):
+            def __iter__(self) -> "typing.Iterator[ImagePoint]":
                 for i in range(len(self)):
                     yield self[i]
+            @typing.overload
+            def __getitem__(self, idx: int) -> "ImagePoint": ...
+            @typing.overload
+            def __getitem__(self, idx: slice) -> "typing.List[ImagePoint]": ...
             def __getitem__(self, idx):
                 if isinstance(idx, slice):
                     return [self[i] for i in range(*idx.indices(len(self)))]
@@ -128,6 +132,7 @@ namespace iMS {
 }
 
 %shared_ptr(iMS::ToneSequenceEntry)
+SHARED_PTR_TYPEHINT(iMS::ToneSequenceEntry, ToneSequenceEntry)
 
 namespace iMS {
 

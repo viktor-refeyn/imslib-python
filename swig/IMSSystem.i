@@ -68,6 +68,7 @@ namespace iMS {
 }
 
 %shared_ptr(iMS::IMSOption)
+SHARED_PTR_TYPEHINT(iMS::IMSOption, IMSOption)
 
     // Define a dummy mirror struct to replace the nested struct
     %immutable;
@@ -97,6 +98,7 @@ namespace iMS {
         };
         $result = SWIG_NewPointerObj(capPtr, SWIGTYPE_p_iMS__IMSControllerCapabilities, SWIG_POINTER_OWN);
     }
+    %typemap(pytyping) iMS::IMSController::Capabilities "IMSControllerCapabilities"
 
 namespace iMS {
 
@@ -158,12 +160,15 @@ namespace iMS {
         };
         $result = SWIG_NewPointerObj(capPtr, SWIGTYPE_p_iMS__IMSSynthesiserCapabilities, SWIG_POINTER_OWN);
     }
+    %typemap(pytyping) iMS::IMSSynthesiser::Capabilities "IMSSynthesiserCapabilities"
 
 namespace iMS {
 
   class IMSSynthesiser
   {
   public:
+    // Empty, which is None in Python, when the Synthesiser has no add-on
+    %typemap(pytyping) std::shared_ptr<const iMS::IMSOption> AddOn "typing.Optional[IMSOption]"
     std::shared_ptr<const IMSOption> AddOn() const;
     const IMSSynthesiser::Capabilities GetCap() const;
     const std::string& Description() const;
@@ -326,6 +331,8 @@ namespace iMS {
     delete $1;
 }
 
+%typemap(pytyping) const std::string& settings "typing.Union[str, CS_ETH, CS_RS422]"
+
 // ---------------------------
 // Typemap: Return correct subclass based on Ident()
 // ---------------------------
@@ -341,6 +348,11 @@ namespace iMS {
         SWIG_exception_fail(SWIG_RuntimeError, "Unknown settings subclass");
     }
 }
+
+// IConnectionSettings is not wrapped: Python only ever sees its two subclasses. RetrieveSettings
+// returns the one it was asked for, or None, which a single return type cannot say
+%typemap(pytyping, out="typing.Any") iMS::IConnectionSettings*, iMS::IConnectionSettings&
+    "typing.Union[CS_ETH, CS_RS422]"
 
 %ignore iMS::IMSSystem::RetrieveSettings(IConnectionSettings&);
 

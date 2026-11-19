@@ -54,9 +54,9 @@ while polarity == None:
     try:
         polarity = int(input("Polarity (0/1): "))
         if polarity == 1:
-            ckgen.Polarity = imslib.Polarity_INVERSE
+            ckgen.ClockPolarity = imslib.Polarity_INVERSE
         elif polarity == 0:
-            ckgen.Polarity = imslib.Polarity_NORMAL
+            ckgen.ClockPolarity = imslib.Polarity_NORMAL
         else:
             polarity = None
     except ValueError:

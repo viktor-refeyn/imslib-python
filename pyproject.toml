@@ -4,7 +4,9 @@ requires = [
     "setuptools>=61",
     "wheel",
     "conan",
-    "swig<=4.3.1",
+    # 4.5 is the first SWIG that generates PEP 484 type hints (-typehints). That support is still
+    # experimental and the generated files are committed, so stay on one minor version
+    "swig>=4.5.1,<4.6",
 ]
 build-backend = "scikit_build_core.build"
 

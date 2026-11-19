@@ -69,16 +69,22 @@ def ReadToFile(filename, s):
 def ReadToString(s):
     r = imslib.UserFileReader(ims, s)
     data = r.Readback()
-    if data is not None:
+    # Readback() returns the file contents as bytes, or False if the readback failed
+    if isinstance(data, bytes):
         print("Read back", len(data), " bytes:")
         print(data.decode("utf-8"))
+    else:
+        print("Readback failed")
 
 def ReadToList(s):
     r = imslib.UserFileReader(ims, s)
-    data_list = [b for b in r.Readback()]
-    if data_list is not None:
+    data = r.Readback()
+    if isinstance(data, bytes):
+        data_list = list(data)
         print("Read back", len(data_list), " values:")
         print(data_list)
+    else:
+        print("Readback failed")
 
 #############################
 # Display FileSystem Menu

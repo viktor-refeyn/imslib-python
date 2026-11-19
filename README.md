@@ -16,6 +16,8 @@
 
 The package is designed to simplify development workflows while providing full access to the capabilities of Isomet AOS hardware.
 
+The package carries type hints (it is marked with `py.typed`), so type checkers such as mypy and Pyright, and editor autocompletion, know the classes, arguments and return types of the API.
+
 ## Installation
 
 It is recommended to install **Python 3.8 or newer** from the official source:
@@ -146,6 +148,8 @@ Then install the required Python packages:
 python3 -m pip install --upgrade pip
 python3 -m pip install setuptools build scikit-build-core ninja cmake conan swig
 ```
+
+The build needs SWIG 4.5: it is the first version that can generate the type hints in `imslib.py`. `python3 -m build` installs it from PyPI by itself; a build that uses a system SWIG instead (apt, MSYS2) needs that one to be 4.5.
 
 ### 3. Configure Conan
 

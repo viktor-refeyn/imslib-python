@@ -30,10 +30,10 @@ class EventWaiter(imslib.IEventHandler):
             if message in self._watched:
                 self._queue.put((message, args))
 
-    def wait(self, timeout: float = None) -> Tuple[object, int, Any]:
+    def wait(self, timeout: Optional[float] = None) -> Tuple[int, Tuple[Any, ...]]:
         """
         Block until a watched event arrives.
-        Returns (sender, message_id, args) if received.
+        Returns (message_id, args) if received.
         Raises TimeoutError if no event occurs before timeout.
         """
         try:

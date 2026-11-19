@@ -204,7 +204,7 @@ def StoreToneBuffer():
 # Erase Tone Buffer from NVM
 #############################
 def EraseToneBuffer():
-    fsm = imslib.FileSystemManager()
+    fsm = imslib.FileSystemManager(ims)
     fsm.Delete("Test12")
     print("Tone Buffer erased from NVM")
 

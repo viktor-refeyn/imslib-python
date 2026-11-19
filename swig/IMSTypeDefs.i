@@ -362,7 +362,12 @@ namespace iMS {
         return oss.str();
     }
     %pythoncode %{
-        def __iter__(self):
+        # SWIG assigns these after the class body, where type checkers do not look
+        min: "typing.ClassVar[int]"
+        max: "typing.ClassVar[int]"
+        all: "typing.ClassVar[int]"
+
+        def __iter__(self) -> "typing.Iterator[int]":
             return iter(range(RFChannel.min, RFChannel.max + 1))
     %}
     RFChannel __add__(int delta) {

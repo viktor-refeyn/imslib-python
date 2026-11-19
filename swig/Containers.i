@@ -172,6 +172,7 @@ template <typename CTYPE>
 }
 
 %shared_ptr(iMS::SequenceEntry)
+SHARED_PTR_TYPEHINT(iMS::SequenceEntry, SequenceEntry)
 
 %template(ListBase_SequenceEntry) iMS::ListBase< std::shared_ptr < iMS::SequenceEntry > >;
 %attributeval(iMS::ListBase< std::shared_ptr < iMS::SequenceEntry > >, %arg(std::array<uint8_t, 16>), GetUUID, GetUUID);

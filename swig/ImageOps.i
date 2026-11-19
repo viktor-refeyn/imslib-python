@@ -86,6 +86,9 @@ namespace iMS {
 %typemap(typecheck, precedence=SWIG_TYPECHECK_INTEGER) cpp_enum {
     $1 = PyLong_Check($input) ? 1 : 0;
 }
+
+// Takes the py_enum IntEnum or a plain int, and is returned as a plain int
+%typemap(pytyping) cpp_enum "int"
 %enddef
 
 ENUM_IN_TYPemap(iMS::ImagePlayer::PointClock, PointClock)

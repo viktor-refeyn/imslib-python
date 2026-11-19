@@ -27,7 +27,7 @@ print(conn.Modules())
 
 print("We are going to test the CM_ETH module.  Please use an Ethernet connection to the iMS")
 
-eth_config = conn.config("CM_ETH")
+eth_config = conn.Config("CM_ETH")
 print("Let's test the default settings, which are:")
 print_settings(eth_config)
 
