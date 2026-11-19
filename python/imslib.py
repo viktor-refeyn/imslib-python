@@ -6007,4 +6007,163 @@ class Diagnostics(object):
 
 # Register Diagnostics in _imslib:
 _imslib.Diagnostics_swigregister(Diagnostics)
+FirmwareUpgradeEvents_FIRMWARE_UPGRADE_DONE = _imslib.FirmwareUpgradeEvents_FIRMWARE_UPGRADE_DONE
+
+FirmwareUpgradeEvents_FIRMWARE_UPGRADE_ERROR = _imslib.FirmwareUpgradeEvents_FIRMWARE_UPGRADE_ERROR
+
+FirmwareUpgradeEvents_FIRMWARE_UPGRADE_STARTED = _imslib.FirmwareUpgradeEvents_FIRMWARE_UPGRADE_STARTED
+
+FirmwareUpgradeEvents_FIRMWARE_UPGRADE_INITIALIZE_OK = _imslib.FirmwareUpgradeEvents_FIRMWARE_UPGRADE_INITIALIZE_OK
+
+FirmwareUpgradeEvents_FIRMWARE_UPGRADE_CHECKID_OK = _imslib.FirmwareUpgradeEvents_FIRMWARE_UPGRADE_CHECKID_OK
+
+FirmwareUpgradeEvents_FIRMWARE_UPGRADE_ENTER_UG_MODE = _imslib.FirmwareUpgradeEvents_FIRMWARE_UPGRADE_ENTER_UG_MODE
+
+FirmwareUpgradeEvents_FIRMWARE_UPGRADE_ERASE_OK = _imslib.FirmwareUpgradeEvents_FIRMWARE_UPGRADE_ERASE_OK
+
+FirmwareUpgradeEvents_FIRMWARE_UPGRADE_PROGRAM_OK = _imslib.FirmwareUpgradeEvents_FIRMWARE_UPGRADE_PROGRAM_OK
+
+FirmwareUpgradeEvents_FIRMWARE_UPGRADE_VERIFY_OK = _imslib.FirmwareUpgradeEvents_FIRMWARE_UPGRADE_VERIFY_OK
+
+FirmwareUpgradeEvents_FIRMWARE_UPGRADE_LEAVE_UG_MODE = _imslib.FirmwareUpgradeEvents_FIRMWARE_UPGRADE_LEAVE_UG_MODE
+
+class FirmwareUpgradeProgress(object):
+    r"""Proxy of C++ iMS::FirmwareUpgradeProgress class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self, arg2):
+        r"""__init__(FirmwareUpgradeProgress self, uint8_t arg2) -> FirmwareUpgradeProgress"""
+        _imslib.FirmwareUpgradeProgress_swiginit(self, _imslib.new_FirmwareUpgradeProgress(arg2))
+
+    def Started(self):
+        r"""Started(FirmwareUpgradeProgress self) -> bool"""
+        return _imslib.FirmwareUpgradeProgress_Started(self)
+
+    def InitializeOK(self):
+        r"""InitializeOK(FirmwareUpgradeProgress self) -> bool"""
+        return _imslib.FirmwareUpgradeProgress_InitializeOK(self)
+
+    def CheckIdOK(self):
+        r"""CheckIdOK(FirmwareUpgradeProgress self) -> bool"""
+        return _imslib.FirmwareUpgradeProgress_CheckIdOK(self)
+
+    def EnterUpgradeModeOK(self):
+        r"""EnterUpgradeModeOK(FirmwareUpgradeProgress self) -> bool"""
+        return _imslib.FirmwareUpgradeProgress_EnterUpgradeModeOK(self)
+
+    def EraseOK(self):
+        r"""EraseOK(FirmwareUpgradeProgress self) -> bool"""
+        return _imslib.FirmwareUpgradeProgress_EraseOK(self)
+
+    def ProgramOK(self):
+        r"""ProgramOK(FirmwareUpgradeProgress self) -> bool"""
+        return _imslib.FirmwareUpgradeProgress_ProgramOK(self)
+
+    def VerifyOK(self):
+        r"""VerifyOK(FirmwareUpgradeProgress self) -> bool"""
+        return _imslib.FirmwareUpgradeProgress_VerifyOK(self)
+
+    def LeaveUpgradeModeOK(self):
+        r"""LeaveUpgradeModeOK(FirmwareUpgradeProgress self) -> bool"""
+        return _imslib.FirmwareUpgradeProgress_LeaveUpgradeModeOK(self)
+    __swig_destroy__ = _imslib.delete_FirmwareUpgradeProgress
+
+# Register FirmwareUpgradeProgress in _imslib:
+_imslib.FirmwareUpgradeProgress_swigregister(FirmwareUpgradeProgress)
+class FirmwareUpgradeError(object):
+    r"""Proxy of C++ iMS::FirmwareUpgradeError class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self, arg2):
+        r"""__init__(FirmwareUpgradeError self, uint8_t arg2) -> FirmwareUpgradeError"""
+        _imslib.FirmwareUpgradeError_swiginit(self, _imslib.new_FirmwareUpgradeError(arg2))
+
+    def StreamError(self):
+        r"""StreamError(FirmwareUpgradeError self) -> bool"""
+        return _imslib.FirmwareUpgradeError_StreamError(self)
+
+    def IdCode(self):
+        r"""IdCode(FirmwareUpgradeError self) -> bool"""
+        return _imslib.FirmwareUpgradeError_IdCode(self)
+
+    def Erase(self):
+        r"""Erase(FirmwareUpgradeError self) -> bool"""
+        return _imslib.FirmwareUpgradeError_Erase(self)
+
+    def Program(self):
+        r"""Program(FirmwareUpgradeError self) -> bool"""
+        return _imslib.FirmwareUpgradeError_Program(self)
+
+    def TimeOut(self):
+        r"""TimeOut(FirmwareUpgradeError self) -> bool"""
+        return _imslib.FirmwareUpgradeError_TimeOut(self)
+
+    def Crc(self):
+        r"""Crc(FirmwareUpgradeError self) -> bool"""
+        return _imslib.FirmwareUpgradeError_Crc(self)
+    __swig_destroy__ = _imslib.delete_FirmwareUpgradeError
+
+# Register FirmwareUpgradeError in _imslib:
+_imslib.FirmwareUpgradeError_swigregister(FirmwareUpgradeError)
+class FirmwareUpgrade(object):
+    r"""Proxy of C++ iMS::FirmwareUpgrade class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self, ims, filename):
+        r"""__init__(FirmwareUpgrade self, std::shared_ptr< iMS::IMSSystem > ims, std::string const & filename) -> FirmwareUpgrade"""
+        _imslib.FirmwareUpgrade_swiginit(self, _imslib.new_FirmwareUpgrade(ims, filename))
+    __swig_destroy__ = _imslib.delete_FirmwareUpgrade
+    UpgradeTarget_SYNTHESISER = _imslib.FirmwareUpgrade_UpgradeTarget_SYNTHESISER
+    
+    UpgradeTarget_CONTROLLER = _imslib.FirmwareUpgrade_UpgradeTarget_CONTROLLER
+    
+
+    def StartUpgrade(self, *args):
+        r"""StartUpgrade(FirmwareUpgrade self, iMS::FirmwareUpgrade::UpgradeTarget const target=SYNTHESISER) -> bool"""
+        return _imslib.FirmwareUpgrade_StartUpgrade(self, *args)
+
+    def VerifyIntegrity(self, *args):
+        r"""VerifyIntegrity(FirmwareUpgrade self, iMS::FirmwareUpgrade::UpgradeTarget const target=SYNTHESISER) -> bool"""
+        return _imslib.FirmwareUpgrade_VerifyIntegrity(self, *args)
+
+    def UpgradeDone(self):
+        r"""UpgradeDone(FirmwareUpgrade self) -> bool"""
+        return _imslib.FirmwareUpgrade_UpgradeDone(self)
+
+    def UpgradeError(self):
+        r"""UpgradeError(FirmwareUpgrade self) -> bool"""
+        return _imslib.FirmwareUpgrade_UpgradeError(self)
+
+    def GetUpgradeProgress(self):
+        r"""GetUpgradeProgress(FirmwareUpgrade self) -> FirmwareUpgradeProgress"""
+        return _imslib.FirmwareUpgrade_GetUpgradeProgress(self)
+
+    def GetUpgradeError(self):
+        r"""GetUpgradeError(FirmwareUpgrade self) -> FirmwareUpgradeError"""
+        return _imslib.FirmwareUpgrade_GetUpgradeError(self)
+
+    def GetTransferLength(self):
+        r"""GetTransferLength(FirmwareUpgrade self) -> uint32_t"""
+        return _imslib.FirmwareUpgrade_GetTransferLength(self)
+
+    def GetTotalTransferLength(self):
+        r"""GetTotalTransferLength(FirmwareUpgrade self) -> uint32_t"""
+        return _imslib.FirmwareUpgrade_GetTotalTransferLength(self)
+
+    def FirmwareUpgradeEventSubscribe(self, message, handler):
+        r"""FirmwareUpgradeEventSubscribe(FirmwareUpgrade self, int const message, IEventHandler handler)"""
+        return _imslib.FirmwareUpgrade_FirmwareUpgradeEventSubscribe(self, message, handler)
+
+    def FirmwareUpgradeEventUnsubscribe(self, message, handler):
+        r"""FirmwareUpgradeEventUnsubscribe(FirmwareUpgrade self, int const message, IEventHandler handler)"""
+        return _imslib.FirmwareUpgrade_FirmwareUpgradeEventUnsubscribe(self, message, handler)
+
+# Register FirmwareUpgrade in _imslib:
+_imslib.FirmwareUpgrade_swigregister(FirmwareUpgrade)
 

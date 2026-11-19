@@ -30,6 +30,7 @@
 #include "SystemFunc.h"
 #include "Diagnostics.h"
 #include "VCO.h"
+#include "FirmwareUpgrade.h"
 
 #include <sstream>
 #include <iomanip>
@@ -119,3 +120,4 @@
 %include "SignalPath.i"
 %include "SystemFunc.i"
 %include "Diagnostics.i"
+%include "FirmwareUpgrade.i"

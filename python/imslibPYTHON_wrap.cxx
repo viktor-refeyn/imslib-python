@@ -3762,127 +3762,130 @@ namespace Swig {
 #define SWIGTYPE_p_iMS__FileSystemManager swig_types[44]
 #define SWIGTYPE_p_iMS__FileSystemTableEntry swig_types[45]
 #define SWIGTYPE_p_iMS__FileSystemTableViewer swig_types[46]
-#define SWIGTYPE_p_iMS__Frequency swig_types[47]
-#define SWIGTYPE_p_iMS__IConnectionSettings swig_types[48]
-#define SWIGTYPE_p_iMS__IEventHandler swig_types[49]
-#define SWIGTYPE_p_iMS__IMSController swig_types[50]
-#define SWIGTYPE_p_iMS__IMSControllerCapabilities swig_types[51]
-#define SWIGTYPE_p_iMS__IMSOption swig_types[52]
-#define SWIGTYPE_p_iMS__IMSSynthesiser swig_types[53]
-#define SWIGTYPE_p_iMS__IMSSynthesiserCapabilities swig_types[54]
-#define SWIGTYPE_p_iMS__IMSSystem swig_types[55]
-#define SWIGTYPE_p_iMS__Image swig_types[56]
-#define SWIGTYPE_p_iMS__ImageDownload swig_types[57]
-#define SWIGTYPE_p_iMS__ImageFormat swig_types[58]
-#define SWIGTYPE_p_iMS__ImageGroup swig_types[59]
-#define SWIGTYPE_p_iMS__ImageGroupList swig_types[60]
-#define SWIGTYPE_p_iMS__ImagePlayer swig_types[61]
-#define SWIGTYPE_p_iMS__ImagePlayerConfiguration swig_types[62]
-#define SWIGTYPE_p_iMS__ImagePoint swig_types[63]
-#define SWIGTYPE_p_iMS__ImageProject swig_types[64]
-#define SWIGTYPE_p_iMS__ImageSequence swig_types[65]
-#define SWIGTYPE_p_iMS__ImageSequenceEntry swig_types[66]
-#define SWIGTYPE_p_iMS__ImageTableEntry swig_types[67]
-#define SWIGTYPE_p_iMS__ImageTableViewer swig_types[68]
-#define SWIGTYPE_p_iMS__LibVersion swig_types[69]
-#define SWIGTYPE_p_iMS__ListBaseT_iMS__CompensationFunction_t swig_types[70]
-#define SWIGTYPE_p_iMS__ListBaseT_iMS__CompensationPointSpecification_t swig_types[71]
-#define SWIGTYPE_p_iMS__ListBaseT_iMS__ImageGroup_t swig_types[72]
-#define SWIGTYPE_p_iMS__ListBaseT_iMS__ToneBuffer_t swig_types[73]
-#define SWIGTYPE_p_iMS__ListBaseT_std__shared_ptrT_iMS__SequenceEntry_t_t swig_types[74]
-#define SWIGTYPE_p_iMS__ListBaseT_std__string_t swig_types[75]
-#define SWIGTYPE_p_iMS__MHz swig_types[76]
-#define SWIGTYPE_p_iMS__Percent swig_types[77]
-#define SWIGTYPE_p_iMS__RFChannel swig_types[78]
-#define SWIGTYPE_p_iMS__SequenceEntry swig_types[79]
-#define SWIGTYPE_p_iMS__SignalPath swig_types[80]
-#define SWIGTYPE_p_iMS__StartupConfiguration swig_types[81]
-#define SWIGTYPE_p_iMS__SweepTone swig_types[82]
-#define SWIGTYPE_p_iMS__SystemFunc swig_types[83]
-#define SWIGTYPE_p_iMS__ToneBuffer swig_types[84]
-#define SWIGTYPE_p_iMS__ToneBufferDownload swig_types[85]
-#define SWIGTYPE_p_iMS__ToneBufferList swig_types[86]
-#define SWIGTYPE_p_iMS__ToneSequenceEntry swig_types[87]
-#define SWIGTYPE_p_iMS__UserFileReader swig_types[88]
-#define SWIGTYPE_p_iMS__UserFileWriter swig_types[89]
-#define SWIGTYPE_p_iMS__VCO swig_types[90]
-#define SWIGTYPE_p_iMS__VelocityConfiguration swig_types[91]
-#define SWIGTYPE_p_iMS__distanceT_std__centi_t swig_types[92]
-#define SWIGTYPE_p_iMS__distanceT_std__deci_t swig_types[93]
-#define SWIGTYPE_p_iMS__distanceT_std__micro_t swig_types[94]
-#define SWIGTYPE_p_iMS__distanceT_std__milli_t swig_types[95]
-#define SWIGTYPE_p_iMS__distanceT_std__nano_t swig_types[96]
-#define SWIGTYPE_p_iMS__distanceT_std__ratioT_1_t_t swig_types[97]
-#define SWIGTYPE_p_iMS__kHz swig_types[98]
-#define SWIGTYPE_p_int swig_types[99]
-#define SWIGTYPE_p_iterator swig_types[100]
-#define SWIGTYPE_p_kHz swig_types[101]
-#define SWIGTYPE_p_key_type swig_types[102]
-#define SWIGTYPE_p_long_long swig_types[103]
-#define SWIGTYPE_p_mapped_type swig_types[104]
-#define SWIGTYPE_p_p_PyObject swig_types[105]
-#define SWIGTYPE_p_post_delay swig_types[106]
-#define SWIGTYPE_p_short swig_types[107]
-#define SWIGTYPE_p_signed_char swig_types[108]
-#define SWIGTYPE_p_size_type swig_types[109]
-#define SWIGTYPE_p_std__allocatorT_iMS__DDSScriptRegister_t swig_types[110]
-#define SWIGTYPE_p_std__allocatorT_std__pairT_int_const_iMS__Percent_t_t swig_types[111]
-#define SWIGTYPE_p_std__allocatorT_std__pairT_std__string_const_iMS__Percent_t_t swig_types[112]
-#define SWIGTYPE_p_std__allocatorT_std__shared_ptrT_iMS__IMSSystem_t_t swig_types[113]
-#define SWIGTYPE_p_std__allocatorT_std__string_t swig_types[114]
-#define SWIGTYPE_p_std__allocatorT_unsigned_char_t swig_types[115]
-#define SWIGTYPE_p_std__arrayT_int16_t_2_t swig_types[116]
-#define SWIGTYPE_p_std__arrayT_uint8_t_16_t swig_types[117]
-#define SWIGTYPE_p_std__chrono__durationT_double_t swig_types[118]
-#define SWIGTYPE_p_std__chrono__durationT_int_t swig_types[119]
-#define SWIGTYPE_p_std__chrono__durationT_uint16_t_std__ratioT_1_10000_t_t swig_types[120]
-#define SWIGTYPE_p_std__chrono__durationT_uint64_t_std__ratioT_1_1000000000_t_t swig_types[121]
-#define SWIGTYPE_p_std__dequeT_iMS__CompensationPoint_t__const_iterator swig_types[122]
-#define SWIGTYPE_p_std__dequeT_iMS__CompensationPoint_t__iterator swig_types[123]
-#define SWIGTYPE_p_std__dequeT_iMS__CompensationTable_t__const_iterator swig_types[124]
-#define SWIGTYPE_p_std__dequeT_iMS__CompensationTable_t__iterator swig_types[125]
-#define SWIGTYPE_p_std__dequeT_iMS__ImagePoint_t__const_iterator swig_types[126]
-#define SWIGTYPE_p_std__dequeT_iMS__ImagePoint_t__iterator swig_types[127]
-#define SWIGTYPE_p_std__dequeT_iMS__Image_t__const_iterator swig_types[128]
-#define SWIGTYPE_p_std__dequeT_iMS__Image_t__iterator swig_types[129]
-#define SWIGTYPE_p_std__invalid_argument swig_types[130]
-#define SWIGTYPE_p_std__lessT_int_t swig_types[131]
-#define SWIGTYPE_p_std__lessT_std__string_t swig_types[132]
-#define SWIGTYPE_p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__const_iterator swig_types[133]
-#define SWIGTYPE_p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__iterator swig_types[134]
-#define SWIGTYPE_p_std__listT_iMS__CompensationPointSpecification_std__allocatorT_iMS__CompensationPointSpecification_t_t__const_iterator swig_types[135]
-#define SWIGTYPE_p_std__listT_iMS__CompensationPointSpecification_std__allocatorT_iMS__CompensationPointSpecification_t_t__iterator swig_types[136]
-#define SWIGTYPE_p_std__listT_iMS__ImageGroup_std__allocatorT_iMS__ImageGroup_t_t__const_iterator swig_types[137]
-#define SWIGTYPE_p_std__listT_iMS__ImageGroup_std__allocatorT_iMS__ImageGroup_t_t__iterator swig_types[138]
-#define SWIGTYPE_p_std__listT_iMS__ToneBuffer_std__allocatorT_iMS__ToneBuffer_t_t__const_iterator swig_types[139]
-#define SWIGTYPE_p_std__listT_iMS__ToneBuffer_std__allocatorT_iMS__ToneBuffer_t_t__iterator swig_types[140]
-#define SWIGTYPE_p_std__listT_std__shared_ptrT_iMS__SequenceEntry_t_std__allocatorT_std__shared_ptrT_iMS__SequenceEntry_t_t_t__const_iterator swig_types[141]
-#define SWIGTYPE_p_std__listT_std__shared_ptrT_iMS__SequenceEntry_t_std__allocatorT_std__shared_ptrT_iMS__SequenceEntry_t_t_t__iterator swig_types[142]
-#define SWIGTYPE_p_std__listT_std__string_std__allocatorT_std__string_t_t__const_iterator swig_types[143]
-#define SWIGTYPE_p_std__listT_std__string_std__allocatorT_std__string_t_t__iterator swig_types[144]
-#define SWIGTYPE_p_std__mapT_iMS__VCO__MEASURE_iMS__Percent_std__lessT_iMS__VCO__MEASURE_t_std__allocatorT_std__pairT_iMS__VCO__MEASURE_const_iMS__Percent_t_t_t swig_types[145]
-#define SWIGTYPE_p_std__mapT_int_iMS__Percent_t swig_types[146]
-#define SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t swig_types[147]
-#define SWIGTYPE_p_std__ostream swig_types[148]
-#define SWIGTYPE_p_std__shared_ptrT_SequenceEntry_t swig_types[149]
-#define SWIGTYPE_p_std__shared_ptrT_iMS__IMSOption_t swig_types[150]
-#define SWIGTYPE_p_std__shared_ptrT_iMS__IMSSystem_t swig_types[151]
-#define SWIGTYPE_p_std__shared_ptrT_iMS__ImageSequenceEntry_t swig_types[152]
-#define SWIGTYPE_p_std__shared_ptrT_iMS__SequenceEntry_t swig_types[153]
-#define SWIGTYPE_p_std__shared_ptrT_iMS__ToneSequenceEntry_t swig_types[154]
-#define SWIGTYPE_p_std__vectorT_iMS__DDSScriptRegister_t swig_types[155]
-#define SWIGTYPE_p_std__vectorT_std__shared_ptrT_iMS__IMSSystem_t_t swig_types[156]
-#define SWIGTYPE_p_std__vectorT_std__string_t swig_types[157]
-#define SWIGTYPE_p_std__vectorT_uint8_t_t swig_types[158]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[159]
-#define SWIGTYPE_p_unsigned_char swig_types[160]
-#define SWIGTYPE_p_unsigned_int swig_types[161]
-#define SWIGTYPE_p_unsigned_long_long swig_types[162]
-#define SWIGTYPE_p_unsigned_short swig_types[163]
-#define SWIGTYPE_p_value_type swig_types[164]
-#define SWIGTYPE_p_void swig_types[165]
-static swig_type_info *swig_types[167];
-static swig_module_info swig_module = {swig_types, 166, 0, 0, 0, 0};
+#define SWIGTYPE_p_iMS__FirmwareUpgrade swig_types[47]
+#define SWIGTYPE_p_iMS__FirmwareUpgradeError swig_types[48]
+#define SWIGTYPE_p_iMS__FirmwareUpgradeProgress swig_types[49]
+#define SWIGTYPE_p_iMS__Frequency swig_types[50]
+#define SWIGTYPE_p_iMS__IConnectionSettings swig_types[51]
+#define SWIGTYPE_p_iMS__IEventHandler swig_types[52]
+#define SWIGTYPE_p_iMS__IMSController swig_types[53]
+#define SWIGTYPE_p_iMS__IMSControllerCapabilities swig_types[54]
+#define SWIGTYPE_p_iMS__IMSOption swig_types[55]
+#define SWIGTYPE_p_iMS__IMSSynthesiser swig_types[56]
+#define SWIGTYPE_p_iMS__IMSSynthesiserCapabilities swig_types[57]
+#define SWIGTYPE_p_iMS__IMSSystem swig_types[58]
+#define SWIGTYPE_p_iMS__Image swig_types[59]
+#define SWIGTYPE_p_iMS__ImageDownload swig_types[60]
+#define SWIGTYPE_p_iMS__ImageFormat swig_types[61]
+#define SWIGTYPE_p_iMS__ImageGroup swig_types[62]
+#define SWIGTYPE_p_iMS__ImageGroupList swig_types[63]
+#define SWIGTYPE_p_iMS__ImagePlayer swig_types[64]
+#define SWIGTYPE_p_iMS__ImagePlayerConfiguration swig_types[65]
+#define SWIGTYPE_p_iMS__ImagePoint swig_types[66]
+#define SWIGTYPE_p_iMS__ImageProject swig_types[67]
+#define SWIGTYPE_p_iMS__ImageSequence swig_types[68]
+#define SWIGTYPE_p_iMS__ImageSequenceEntry swig_types[69]
+#define SWIGTYPE_p_iMS__ImageTableEntry swig_types[70]
+#define SWIGTYPE_p_iMS__ImageTableViewer swig_types[71]
+#define SWIGTYPE_p_iMS__LibVersion swig_types[72]
+#define SWIGTYPE_p_iMS__ListBaseT_iMS__CompensationFunction_t swig_types[73]
+#define SWIGTYPE_p_iMS__ListBaseT_iMS__CompensationPointSpecification_t swig_types[74]
+#define SWIGTYPE_p_iMS__ListBaseT_iMS__ImageGroup_t swig_types[75]
+#define SWIGTYPE_p_iMS__ListBaseT_iMS__ToneBuffer_t swig_types[76]
+#define SWIGTYPE_p_iMS__ListBaseT_std__shared_ptrT_iMS__SequenceEntry_t_t swig_types[77]
+#define SWIGTYPE_p_iMS__ListBaseT_std__string_t swig_types[78]
+#define SWIGTYPE_p_iMS__MHz swig_types[79]
+#define SWIGTYPE_p_iMS__Percent swig_types[80]
+#define SWIGTYPE_p_iMS__RFChannel swig_types[81]
+#define SWIGTYPE_p_iMS__SequenceEntry swig_types[82]
+#define SWIGTYPE_p_iMS__SignalPath swig_types[83]
+#define SWIGTYPE_p_iMS__StartupConfiguration swig_types[84]
+#define SWIGTYPE_p_iMS__SweepTone swig_types[85]
+#define SWIGTYPE_p_iMS__SystemFunc swig_types[86]
+#define SWIGTYPE_p_iMS__ToneBuffer swig_types[87]
+#define SWIGTYPE_p_iMS__ToneBufferDownload swig_types[88]
+#define SWIGTYPE_p_iMS__ToneBufferList swig_types[89]
+#define SWIGTYPE_p_iMS__ToneSequenceEntry swig_types[90]
+#define SWIGTYPE_p_iMS__UserFileReader swig_types[91]
+#define SWIGTYPE_p_iMS__UserFileWriter swig_types[92]
+#define SWIGTYPE_p_iMS__VCO swig_types[93]
+#define SWIGTYPE_p_iMS__VelocityConfiguration swig_types[94]
+#define SWIGTYPE_p_iMS__distanceT_std__centi_t swig_types[95]
+#define SWIGTYPE_p_iMS__distanceT_std__deci_t swig_types[96]
+#define SWIGTYPE_p_iMS__distanceT_std__micro_t swig_types[97]
+#define SWIGTYPE_p_iMS__distanceT_std__milli_t swig_types[98]
+#define SWIGTYPE_p_iMS__distanceT_std__nano_t swig_types[99]
+#define SWIGTYPE_p_iMS__distanceT_std__ratioT_1_t_t swig_types[100]
+#define SWIGTYPE_p_iMS__kHz swig_types[101]
+#define SWIGTYPE_p_int swig_types[102]
+#define SWIGTYPE_p_iterator swig_types[103]
+#define SWIGTYPE_p_kHz swig_types[104]
+#define SWIGTYPE_p_key_type swig_types[105]
+#define SWIGTYPE_p_long_long swig_types[106]
+#define SWIGTYPE_p_mapped_type swig_types[107]
+#define SWIGTYPE_p_p_PyObject swig_types[108]
+#define SWIGTYPE_p_post_delay swig_types[109]
+#define SWIGTYPE_p_short swig_types[110]
+#define SWIGTYPE_p_signed_char swig_types[111]
+#define SWIGTYPE_p_size_type swig_types[112]
+#define SWIGTYPE_p_std__allocatorT_iMS__DDSScriptRegister_t swig_types[113]
+#define SWIGTYPE_p_std__allocatorT_std__pairT_int_const_iMS__Percent_t_t swig_types[114]
+#define SWIGTYPE_p_std__allocatorT_std__pairT_std__string_const_iMS__Percent_t_t swig_types[115]
+#define SWIGTYPE_p_std__allocatorT_std__shared_ptrT_iMS__IMSSystem_t_t swig_types[116]
+#define SWIGTYPE_p_std__allocatorT_std__string_t swig_types[117]
+#define SWIGTYPE_p_std__allocatorT_unsigned_char_t swig_types[118]
+#define SWIGTYPE_p_std__arrayT_int16_t_2_t swig_types[119]
+#define SWIGTYPE_p_std__arrayT_uint8_t_16_t swig_types[120]
+#define SWIGTYPE_p_std__chrono__durationT_double_t swig_types[121]
+#define SWIGTYPE_p_std__chrono__durationT_int_t swig_types[122]
+#define SWIGTYPE_p_std__chrono__durationT_uint16_t_std__ratioT_1_10000_t_t swig_types[123]
+#define SWIGTYPE_p_std__chrono__durationT_uint64_t_std__ratioT_1_1000000000_t_t swig_types[124]
+#define SWIGTYPE_p_std__dequeT_iMS__CompensationPoint_t__const_iterator swig_types[125]
+#define SWIGTYPE_p_std__dequeT_iMS__CompensationPoint_t__iterator swig_types[126]
+#define SWIGTYPE_p_std__dequeT_iMS__CompensationTable_t__const_iterator swig_types[127]
+#define SWIGTYPE_p_std__dequeT_iMS__CompensationTable_t__iterator swig_types[128]
+#define SWIGTYPE_p_std__dequeT_iMS__ImagePoint_t__const_iterator swig_types[129]
+#define SWIGTYPE_p_std__dequeT_iMS__ImagePoint_t__iterator swig_types[130]
+#define SWIGTYPE_p_std__dequeT_iMS__Image_t__const_iterator swig_types[131]
+#define SWIGTYPE_p_std__dequeT_iMS__Image_t__iterator swig_types[132]
+#define SWIGTYPE_p_std__invalid_argument swig_types[133]
+#define SWIGTYPE_p_std__lessT_int_t swig_types[134]
+#define SWIGTYPE_p_std__lessT_std__string_t swig_types[135]
+#define SWIGTYPE_p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__const_iterator swig_types[136]
+#define SWIGTYPE_p_std__listT_iMS__CompensationFunction_std__allocatorT_iMS__CompensationFunction_t_t__iterator swig_types[137]
+#define SWIGTYPE_p_std__listT_iMS__CompensationPointSpecification_std__allocatorT_iMS__CompensationPointSpecification_t_t__const_iterator swig_types[138]
+#define SWIGTYPE_p_std__listT_iMS__CompensationPointSpecification_std__allocatorT_iMS__CompensationPointSpecification_t_t__iterator swig_types[139]
+#define SWIGTYPE_p_std__listT_iMS__ImageGroup_std__allocatorT_iMS__ImageGroup_t_t__const_iterator swig_types[140]
+#define SWIGTYPE_p_std__listT_iMS__ImageGroup_std__allocatorT_iMS__ImageGroup_t_t__iterator swig_types[141]
+#define SWIGTYPE_p_std__listT_iMS__ToneBuffer_std__allocatorT_iMS__ToneBuffer_t_t__const_iterator swig_types[142]
+#define SWIGTYPE_p_std__listT_iMS__ToneBuffer_std__allocatorT_iMS__ToneBuffer_t_t__iterator swig_types[143]
+#define SWIGTYPE_p_std__listT_std__shared_ptrT_iMS__SequenceEntry_t_std__allocatorT_std__shared_ptrT_iMS__SequenceEntry_t_t_t__const_iterator swig_types[144]
+#define SWIGTYPE_p_std__listT_std__shared_ptrT_iMS__SequenceEntry_t_std__allocatorT_std__shared_ptrT_iMS__SequenceEntry_t_t_t__iterator swig_types[145]
+#define SWIGTYPE_p_std__listT_std__string_std__allocatorT_std__string_t_t__const_iterator swig_types[146]
+#define SWIGTYPE_p_std__listT_std__string_std__allocatorT_std__string_t_t__iterator swig_types[147]
+#define SWIGTYPE_p_std__mapT_iMS__VCO__MEASURE_iMS__Percent_std__lessT_iMS__VCO__MEASURE_t_std__allocatorT_std__pairT_iMS__VCO__MEASURE_const_iMS__Percent_t_t_t swig_types[148]
+#define SWIGTYPE_p_std__mapT_int_iMS__Percent_t swig_types[149]
+#define SWIGTYPE_p_std__mapT_std__string_iMS__Percent_t swig_types[150]
+#define SWIGTYPE_p_std__ostream swig_types[151]
+#define SWIGTYPE_p_std__shared_ptrT_SequenceEntry_t swig_types[152]
+#define SWIGTYPE_p_std__shared_ptrT_iMS__IMSOption_t swig_types[153]
+#define SWIGTYPE_p_std__shared_ptrT_iMS__IMSSystem_t swig_types[154]
+#define SWIGTYPE_p_std__shared_ptrT_iMS__ImageSequenceEntry_t swig_types[155]
+#define SWIGTYPE_p_std__shared_ptrT_iMS__SequenceEntry_t swig_types[156]
+#define SWIGTYPE_p_std__shared_ptrT_iMS__ToneSequenceEntry_t swig_types[157]
+#define SWIGTYPE_p_std__vectorT_iMS__DDSScriptRegister_t swig_types[158]
+#define SWIGTYPE_p_std__vectorT_std__shared_ptrT_iMS__IMSSystem_t_t swig_types[159]
+#define SWIGTYPE_p_std__vectorT_std__string_t swig_types[160]
+#define SWIGTYPE_p_std__vectorT_uint8_t_t swig_types[161]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[162]
+#define SWIGTYPE_p_unsigned_char swig_types[163]
+#define SWIGTYPE_p_unsigned_int swig_types[164]
+#define SWIGTYPE_p_unsigned_long_long swig_types[165]
+#define SWIGTYPE_p_unsigned_short swig_types[166]
+#define SWIGTYPE_p_value_type swig_types[167]
+#define SWIGTYPE_p_void swig_types[168]
+static swig_type_info *swig_types[170];
+static swig_module_info swig_module = {swig_types, 169, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -4050,6 +4053,7 @@ namespace swig {
 #include "SystemFunc.h"
 #include "Diagnostics.h"
 #include "VCO.h"
+#include "FirmwareUpgrade.h"
 
 #include <sstream>
 #include <iomanip>
@@ -9265,6 +9269,47 @@ SWIGINTERN size_t iMS_ToneBuffer___len__(iMS::ToneBuffer *self){
 #define iMS_ImageProject_FreeImageContainer_get(self_) &self_->FreeImageContainer()
 #define iMS_ImageProject_FreeImageContainer_set(self_, val_) self_->FreeImageContainer() = *val_
   
+
+#include <filesystem>
+#include <fstream>
+#include <stdexcept>
+
+namespace iMS
+{
+  // The C++ FirmwareUpgrade class only keeps a reference to the firmware stream, which is read from a
+  // background thread for as long as the upgrade runs.  Python has no std::istream to hand over, so
+  // this subclass opens the firmware file itself and owns the stream for the lifetime of the object.
+  struct PyFirmwareStream
+  {
+    explicit PyFirmwareStream(const std::string& filename)
+      // Python passes UTF-8.  MCS files are text, so open in text mode
+      : m_strm(std::filesystem::u8path(filename))
+    {
+      if (!m_strm.is_open()) {
+        throw std::runtime_error("Unable to open firmware file: " + filename);
+      }
+    }
+    std::ifstream m_strm;
+  };
+
+  // The stream is a base class so that it is created before, and destroyed after, the FirmwareUpgrade
+  // (whose destructor joins the thread that reads the stream)
+  class PyFirmwareUpgrade : private PyFirmwareStream, public FirmwareUpgrade
+  {
+  public:
+    PyFirmwareUpgrade(std::shared_ptr<IMSSystem> ims, const std::string& filename)
+      : PyFirmwareStream(filename), FirmwareUpgrade(ims, m_strm) {}
+  };
+}
+
+SWIGINTERN iMS::FirmwareUpgrade *new_iMS_FirmwareUpgrade(std::shared_ptr< iMS::IMSSystem > ims,std::string const &filename){
+        return new iMS::PyFirmwareUpgrade(ims, filename);
+      }
+SWIGINTERN void delete_iMS_FirmwareUpgrade(iMS::FirmwareUpgrade *self){
+        // Every object created from Python is a PyFirmwareUpgrade; delete it as one so that the
+        // stream is released too (the C++ destructor is not virtual)
+        delete static_cast<iMS::PyFirmwareUpgrade*>(self);
+      }
 
 
 /* ---------------------------------------------------
@@ -78735,6 +78780,1076 @@ SWIGINTERN PyObject *Diagnostics_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObje
   return SWIG_Python_InitShadowInstance(args);
 }
 
+SWIGINTERN PyObject *_wrap_new_FirmwareUpgradeProgress(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  uint8_t arg1 ;
+  unsigned char val1 ;
+  int ecode1 = 0 ;
+  PyObject *swig_obj[1] ;
+  iMS::FirmwareUpgradeProgress *result = 0 ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  ecode1 = SWIG_AsVal_unsigned_SS_char(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_FirmwareUpgradeProgress" "', argument " "1"" of type '" "uint8_t""'");
+  } 
+  arg1 = static_cast< uint8_t >(val1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (iMS::FirmwareUpgradeProgress *)new iMS::FirmwareUpgradeProgress(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_iMS__FirmwareUpgradeProgress, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgradeProgress_Started(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgradeProgress *arg1 = (iMS::FirmwareUpgradeProgress *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgradeProgress, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgradeProgress_Started" "', argument " "1"" of type '" "iMS::FirmwareUpgradeProgress const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgradeProgress * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((iMS::FirmwareUpgradeProgress const *)arg1)->Started();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgradeProgress_InitializeOK(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgradeProgress *arg1 = (iMS::FirmwareUpgradeProgress *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgradeProgress, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgradeProgress_InitializeOK" "', argument " "1"" of type '" "iMS::FirmwareUpgradeProgress const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgradeProgress * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((iMS::FirmwareUpgradeProgress const *)arg1)->InitializeOK();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgradeProgress_CheckIdOK(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgradeProgress *arg1 = (iMS::FirmwareUpgradeProgress *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgradeProgress, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgradeProgress_CheckIdOK" "', argument " "1"" of type '" "iMS::FirmwareUpgradeProgress const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgradeProgress * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((iMS::FirmwareUpgradeProgress const *)arg1)->CheckIdOK();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgradeProgress_EnterUpgradeModeOK(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgradeProgress *arg1 = (iMS::FirmwareUpgradeProgress *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgradeProgress, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgradeProgress_EnterUpgradeModeOK" "', argument " "1"" of type '" "iMS::FirmwareUpgradeProgress const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgradeProgress * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((iMS::FirmwareUpgradeProgress const *)arg1)->EnterUpgradeModeOK();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgradeProgress_EraseOK(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgradeProgress *arg1 = (iMS::FirmwareUpgradeProgress *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgradeProgress, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgradeProgress_EraseOK" "', argument " "1"" of type '" "iMS::FirmwareUpgradeProgress const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgradeProgress * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((iMS::FirmwareUpgradeProgress const *)arg1)->EraseOK();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgradeProgress_ProgramOK(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgradeProgress *arg1 = (iMS::FirmwareUpgradeProgress *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgradeProgress, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgradeProgress_ProgramOK" "', argument " "1"" of type '" "iMS::FirmwareUpgradeProgress const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgradeProgress * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((iMS::FirmwareUpgradeProgress const *)arg1)->ProgramOK();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgradeProgress_VerifyOK(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgradeProgress *arg1 = (iMS::FirmwareUpgradeProgress *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgradeProgress, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgradeProgress_VerifyOK" "', argument " "1"" of type '" "iMS::FirmwareUpgradeProgress const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgradeProgress * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((iMS::FirmwareUpgradeProgress const *)arg1)->VerifyOK();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgradeProgress_LeaveUpgradeModeOK(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgradeProgress *arg1 = (iMS::FirmwareUpgradeProgress *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgradeProgress, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgradeProgress_LeaveUpgradeModeOK" "', argument " "1"" of type '" "iMS::FirmwareUpgradeProgress const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgradeProgress * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((iMS::FirmwareUpgradeProgress const *)arg1)->LeaveUpgradeModeOK();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_FirmwareUpgradeProgress(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgradeProgress *arg1 = (iMS::FirmwareUpgradeProgress *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgradeProgress, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_FirmwareUpgradeProgress" "', argument " "1"" of type '" "iMS::FirmwareUpgradeProgress *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgradeProgress * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    delete arg1;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *FirmwareUpgradeProgress_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj = NULL;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_iMS__FirmwareUpgradeProgress, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *FirmwareUpgradeProgress_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_FirmwareUpgradeError(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  uint8_t arg1 ;
+  unsigned char val1 ;
+  int ecode1 = 0 ;
+  PyObject *swig_obj[1] ;
+  iMS::FirmwareUpgradeError *result = 0 ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  ecode1 = SWIG_AsVal_unsigned_SS_char(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_FirmwareUpgradeError" "', argument " "1"" of type '" "uint8_t""'");
+  } 
+  arg1 = static_cast< uint8_t >(val1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (iMS::FirmwareUpgradeError *)new iMS::FirmwareUpgradeError(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_iMS__FirmwareUpgradeError, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgradeError_StreamError(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgradeError *arg1 = (iMS::FirmwareUpgradeError *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgradeError, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgradeError_StreamError" "', argument " "1"" of type '" "iMS::FirmwareUpgradeError const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgradeError * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((iMS::FirmwareUpgradeError const *)arg1)->StreamError();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgradeError_IdCode(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgradeError *arg1 = (iMS::FirmwareUpgradeError *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgradeError, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgradeError_IdCode" "', argument " "1"" of type '" "iMS::FirmwareUpgradeError const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgradeError * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((iMS::FirmwareUpgradeError const *)arg1)->IdCode();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgradeError_Erase(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgradeError *arg1 = (iMS::FirmwareUpgradeError *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgradeError, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgradeError_Erase" "', argument " "1"" of type '" "iMS::FirmwareUpgradeError const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgradeError * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((iMS::FirmwareUpgradeError const *)arg1)->Erase();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgradeError_Program(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgradeError *arg1 = (iMS::FirmwareUpgradeError *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgradeError, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgradeError_Program" "', argument " "1"" of type '" "iMS::FirmwareUpgradeError const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgradeError * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((iMS::FirmwareUpgradeError const *)arg1)->Program();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgradeError_TimeOut(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgradeError *arg1 = (iMS::FirmwareUpgradeError *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgradeError, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgradeError_TimeOut" "', argument " "1"" of type '" "iMS::FirmwareUpgradeError const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgradeError * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((iMS::FirmwareUpgradeError const *)arg1)->TimeOut();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgradeError_Crc(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgradeError *arg1 = (iMS::FirmwareUpgradeError *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgradeError, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgradeError_Crc" "', argument " "1"" of type '" "iMS::FirmwareUpgradeError const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgradeError * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((iMS::FirmwareUpgradeError const *)arg1)->Crc();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_FirmwareUpgradeError(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgradeError *arg1 = (iMS::FirmwareUpgradeError *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgradeError, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_FirmwareUpgradeError" "', argument " "1"" of type '" "iMS::FirmwareUpgradeError *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgradeError * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    delete arg1;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *FirmwareUpgradeError_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj = NULL;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_iMS__FirmwareUpgradeError, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *FirmwareUpgradeError_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_FirmwareUpgrade(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  std::shared_ptr< iMS::IMSSystem > arg1 ;
+  std::string *arg2 = 0 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject *swig_obj[2] ;
+  iMS::FirmwareUpgrade *result = 0 ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "new_FirmwareUpgrade", 2, 2, swig_obj)) SWIG_fail;
+  {
+    int newmem = 0;
+    res1 = SWIG_ConvertPtrAndOwn(swig_obj[0], &argp1, SWIGTYPE_p_std__shared_ptrT_iMS__IMSSystem_t,  0 , &newmem);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_FirmwareUpgrade" "', argument " "1"" of type '" "std::shared_ptr< iMS::IMSSystem >""'");
+    }
+    if (argp1) arg1 = *(reinterpret_cast< std::shared_ptr< iMS::IMSSystem > * >(argp1));
+    if (newmem & SWIG_CAST_NEW_MEMORY) delete reinterpret_cast< std::shared_ptr< iMS::IMSSystem > * >(argp1);
+  }
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "new_FirmwareUpgrade" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_NullReferenceError, "invalid null reference " "in method '" "new_FirmwareUpgrade" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        result = (iMS::FirmwareUpgrade *)new_iMS_FirmwareUpgrade(SWIG_STD_MOVE(arg1),(std::string const &)*arg2);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    } catch (const std::exception& e) {
+      SWIG_exception(SWIG_IOError, e.what());
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_iMS__FirmwareUpgrade, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_FirmwareUpgrade(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgrade *arg1 = (iMS::FirmwareUpgrade *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgrade, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_FirmwareUpgrade" "', argument " "1"" of type '" "iMS::FirmwareUpgrade *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgrade * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    delete_iMS_FirmwareUpgrade(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgrade_StartUpgrade__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgrade *arg1 = (iMS::FirmwareUpgrade *) 0 ;
+  iMS::FirmwareUpgrade::UpgradeTarget arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgrade, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgrade_StartUpgrade" "', argument " "1"" of type '" "iMS::FirmwareUpgrade *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgrade * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "FirmwareUpgrade_StartUpgrade" "', argument " "2"" of type '" "iMS::FirmwareUpgrade::UpgradeTarget""'");
+  } 
+  arg2 = static_cast< iMS::FirmwareUpgrade::UpgradeTarget >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->StartUpgrade(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgrade_StartUpgrade__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgrade *arg1 = (iMS::FirmwareUpgrade *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgrade, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgrade_StartUpgrade" "', argument " "1"" of type '" "iMS::FirmwareUpgrade *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgrade * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->StartUpgrade();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgrade_StartUpgrade(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "FirmwareUpgrade_StartUpgrade", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 1) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__FirmwareUpgrade, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_FirmwareUpgrade_StartUpgrade__SWIG_1(self, argc, argv);
+    }
+  }
+  if (argc == 2) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__FirmwareUpgrade, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_FirmwareUpgrade_StartUpgrade__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'FirmwareUpgrade_StartUpgrade'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    iMS::FirmwareUpgrade::StartUpgrade(iMS::FirmwareUpgrade::UpgradeTarget const)\n"
+    "    iMS::FirmwareUpgrade::StartUpgrade()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgrade_VerifyIntegrity__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgrade *arg1 = (iMS::FirmwareUpgrade *) 0 ;
+  iMS::FirmwareUpgrade::UpgradeTarget arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgrade, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgrade_VerifyIntegrity" "', argument " "1"" of type '" "iMS::FirmwareUpgrade *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgrade * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "FirmwareUpgrade_VerifyIntegrity" "', argument " "2"" of type '" "iMS::FirmwareUpgrade::UpgradeTarget""'");
+  } 
+  arg2 = static_cast< iMS::FirmwareUpgrade::UpgradeTarget >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->VerifyIntegrity(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgrade_VerifyIntegrity__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgrade *arg1 = (iMS::FirmwareUpgrade *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool result;
+  
+  (void)self;
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgrade, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgrade_VerifyIntegrity" "', argument " "1"" of type '" "iMS::FirmwareUpgrade *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgrade * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)(arg1)->VerifyIntegrity();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgrade_VerifyIntegrity(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "FirmwareUpgrade_VerifyIntegrity", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 1) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__FirmwareUpgrade, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_FirmwareUpgrade_VerifyIntegrity__SWIG_1(self, argc, argv);
+    }
+  }
+  if (argc == 2) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_iMS__FirmwareUpgrade, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_FirmwareUpgrade_VerifyIntegrity__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'FirmwareUpgrade_VerifyIntegrity'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    iMS::FirmwareUpgrade::VerifyIntegrity(iMS::FirmwareUpgrade::UpgradeTarget const)\n"
+    "    iMS::FirmwareUpgrade::VerifyIntegrity()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgrade_UpgradeDone(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgrade *arg1 = (iMS::FirmwareUpgrade *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgrade, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgrade_UpgradeDone" "', argument " "1"" of type '" "iMS::FirmwareUpgrade const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgrade * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((iMS::FirmwareUpgrade const *)arg1)->UpgradeDone();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgrade_UpgradeError(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgrade *arg1 = (iMS::FirmwareUpgrade *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgrade, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgrade_UpgradeError" "', argument " "1"" of type '" "iMS::FirmwareUpgrade const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgrade * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((iMS::FirmwareUpgrade const *)arg1)->UpgradeError();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgrade_GetUpgradeProgress(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgrade *arg1 = (iMS::FirmwareUpgrade *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  SwigValueWrapper< iMS::FirmwareUpgradeProgress > result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgrade, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgrade_GetUpgradeProgress" "', argument " "1"" of type '" "iMS::FirmwareUpgrade const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgrade * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((iMS::FirmwareUpgrade const *)arg1)->GetUpgradeProgress();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj((new iMS::FirmwareUpgradeProgress(result)), SWIGTYPE_p_iMS__FirmwareUpgradeProgress, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgrade_GetUpgradeError(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgrade *arg1 = (iMS::FirmwareUpgrade *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  SwigValueWrapper< iMS::FirmwareUpgradeError > result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgrade, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgrade_GetUpgradeError" "', argument " "1"" of type '" "iMS::FirmwareUpgrade const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgrade * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((iMS::FirmwareUpgrade const *)arg1)->GetUpgradeError();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj((new iMS::FirmwareUpgradeError(result)), SWIGTYPE_p_iMS__FirmwareUpgradeError, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgrade_GetTransferLength(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgrade *arg1 = (iMS::FirmwareUpgrade *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgrade, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgrade_GetTransferLength" "', argument " "1"" of type '" "iMS::FirmwareUpgrade const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgrade * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (uint32_t)((iMS::FirmwareUpgrade const *)arg1)->GetTransferLength();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgrade_GetTotalTransferLength(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgrade *arg1 = (iMS::FirmwareUpgrade *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgrade, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgrade_GetTotalTransferLength" "', argument " "1"" of type '" "iMS::FirmwareUpgrade const *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgrade * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (uint32_t)((iMS::FirmwareUpgrade const *)arg1)->GetTotalTransferLength();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgrade_FirmwareUpgradeEventSubscribe(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgrade *arg1 = (iMS::FirmwareUpgrade *) 0 ;
+  int arg2 ;
+  iMS::IEventHandler *arg3 = (iMS::IEventHandler *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "FirmwareUpgrade_FirmwareUpgradeEventSubscribe", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgrade, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgrade_FirmwareUpgradeEventSubscribe" "', argument " "1"" of type '" "iMS::FirmwareUpgrade *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgrade * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "FirmwareUpgrade_FirmwareUpgradeEventSubscribe" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3,SWIGTYPE_p_iMS__IEventHandler, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "FirmwareUpgrade_FirmwareUpgradeEventSubscribe" "', argument " "3"" of type '" "iMS::IEventHandler *""'"); 
+  }
+  arg3 = reinterpret_cast< iMS::IEventHandler * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->FirmwareUpgradeEventSubscribe(arg2,arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FirmwareUpgrade_FirmwareUpgradeEventUnsubscribe(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  iMS::FirmwareUpgrade *arg1 = (iMS::FirmwareUpgrade *) 0 ;
+  int arg2 ;
+  iMS::IEventHandler *arg3 = (iMS::IEventHandler *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject *swig_obj[3] ;
+  
+  (void)self;
+  if (!SWIG_Python_UnpackTuple(args, "FirmwareUpgrade_FirmwareUpgradeEventUnsubscribe", 3, 3, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_iMS__FirmwareUpgrade, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FirmwareUpgrade_FirmwareUpgradeEventUnsubscribe" "', argument " "1"" of type '" "iMS::FirmwareUpgrade *""'"); 
+  }
+  arg1 = reinterpret_cast< iMS::FirmwareUpgrade * >(argp1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "FirmwareUpgrade_FirmwareUpgradeEventUnsubscribe" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3,SWIGTYPE_p_iMS__IEventHandler, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "FirmwareUpgrade_FirmwareUpgradeEventUnsubscribe" "', argument " "3"" of type '" "iMS::IEventHandler const *""'"); 
+  }
+  arg3 = reinterpret_cast< iMS::IEventHandler * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->FirmwareUpgradeEventUnsubscribe(arg2,(iMS::IEventHandler const *)arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *FirmwareUpgrade_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj = NULL;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_iMS__FirmwareUpgrade, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *FirmwareUpgrade_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
 static PyMethodDef SwigMethods[] = {
 	 { "delete_SwigPyIterator", _wrap_delete_SwigPyIterator, METH_O, "delete_SwigPyIterator(SwigPyIterator self)"},
 	 { "SwigPyIterator_value", _wrap_SwigPyIterator_value, METH_O, "SwigPyIterator_value(SwigPyIterator self) -> PyObject *"},
@@ -80789,6 +81904,42 @@ static PyMethodDef SwigMethods[] = {
 	 { "delete_Diagnostics", _wrap_delete_Diagnostics, METH_O, "delete_Diagnostics(Diagnostics self)"},
 	 { "Diagnostics_swigregister", Diagnostics_swigregister, METH_O, NULL},
 	 { "Diagnostics_swiginit", Diagnostics_swiginit, METH_VARARGS, NULL},
+	 { "new_FirmwareUpgradeProgress", _wrap_new_FirmwareUpgradeProgress, METH_O, "new_FirmwareUpgradeProgress(uint8_t arg1) -> FirmwareUpgradeProgress"},
+	 { "FirmwareUpgradeProgress_Started", _wrap_FirmwareUpgradeProgress_Started, METH_O, "FirmwareUpgradeProgress_Started(FirmwareUpgradeProgress self) -> bool"},
+	 { "FirmwareUpgradeProgress_InitializeOK", _wrap_FirmwareUpgradeProgress_InitializeOK, METH_O, "FirmwareUpgradeProgress_InitializeOK(FirmwareUpgradeProgress self) -> bool"},
+	 { "FirmwareUpgradeProgress_CheckIdOK", _wrap_FirmwareUpgradeProgress_CheckIdOK, METH_O, "FirmwareUpgradeProgress_CheckIdOK(FirmwareUpgradeProgress self) -> bool"},
+	 { "FirmwareUpgradeProgress_EnterUpgradeModeOK", _wrap_FirmwareUpgradeProgress_EnterUpgradeModeOK, METH_O, "FirmwareUpgradeProgress_EnterUpgradeModeOK(FirmwareUpgradeProgress self) -> bool"},
+	 { "FirmwareUpgradeProgress_EraseOK", _wrap_FirmwareUpgradeProgress_EraseOK, METH_O, "FirmwareUpgradeProgress_EraseOK(FirmwareUpgradeProgress self) -> bool"},
+	 { "FirmwareUpgradeProgress_ProgramOK", _wrap_FirmwareUpgradeProgress_ProgramOK, METH_O, "FirmwareUpgradeProgress_ProgramOK(FirmwareUpgradeProgress self) -> bool"},
+	 { "FirmwareUpgradeProgress_VerifyOK", _wrap_FirmwareUpgradeProgress_VerifyOK, METH_O, "FirmwareUpgradeProgress_VerifyOK(FirmwareUpgradeProgress self) -> bool"},
+	 { "FirmwareUpgradeProgress_LeaveUpgradeModeOK", _wrap_FirmwareUpgradeProgress_LeaveUpgradeModeOK, METH_O, "FirmwareUpgradeProgress_LeaveUpgradeModeOK(FirmwareUpgradeProgress self) -> bool"},
+	 { "delete_FirmwareUpgradeProgress", _wrap_delete_FirmwareUpgradeProgress, METH_O, "delete_FirmwareUpgradeProgress(FirmwareUpgradeProgress self)"},
+	 { "FirmwareUpgradeProgress_swigregister", FirmwareUpgradeProgress_swigregister, METH_O, NULL},
+	 { "FirmwareUpgradeProgress_swiginit", FirmwareUpgradeProgress_swiginit, METH_VARARGS, NULL},
+	 { "new_FirmwareUpgradeError", _wrap_new_FirmwareUpgradeError, METH_O, "new_FirmwareUpgradeError(uint8_t arg1) -> FirmwareUpgradeError"},
+	 { "FirmwareUpgradeError_StreamError", _wrap_FirmwareUpgradeError_StreamError, METH_O, "FirmwareUpgradeError_StreamError(FirmwareUpgradeError self) -> bool"},
+	 { "FirmwareUpgradeError_IdCode", _wrap_FirmwareUpgradeError_IdCode, METH_O, "FirmwareUpgradeError_IdCode(FirmwareUpgradeError self) -> bool"},
+	 { "FirmwareUpgradeError_Erase", _wrap_FirmwareUpgradeError_Erase, METH_O, "FirmwareUpgradeError_Erase(FirmwareUpgradeError self) -> bool"},
+	 { "FirmwareUpgradeError_Program", _wrap_FirmwareUpgradeError_Program, METH_O, "FirmwareUpgradeError_Program(FirmwareUpgradeError self) -> bool"},
+	 { "FirmwareUpgradeError_TimeOut", _wrap_FirmwareUpgradeError_TimeOut, METH_O, "FirmwareUpgradeError_TimeOut(FirmwareUpgradeError self) -> bool"},
+	 { "FirmwareUpgradeError_Crc", _wrap_FirmwareUpgradeError_Crc, METH_O, "FirmwareUpgradeError_Crc(FirmwareUpgradeError self) -> bool"},
+	 { "delete_FirmwareUpgradeError", _wrap_delete_FirmwareUpgradeError, METH_O, "delete_FirmwareUpgradeError(FirmwareUpgradeError self)"},
+	 { "FirmwareUpgradeError_swigregister", FirmwareUpgradeError_swigregister, METH_O, NULL},
+	 { "FirmwareUpgradeError_swiginit", FirmwareUpgradeError_swiginit, METH_VARARGS, NULL},
+	 { "new_FirmwareUpgrade", _wrap_new_FirmwareUpgrade, METH_VARARGS, "new_FirmwareUpgrade(std::shared_ptr< iMS::IMSSystem > ims, std::string const & filename) -> FirmwareUpgrade"},
+	 { "delete_FirmwareUpgrade", _wrap_delete_FirmwareUpgrade, METH_O, "delete_FirmwareUpgrade(FirmwareUpgrade self)"},
+	 { "FirmwareUpgrade_StartUpgrade", _wrap_FirmwareUpgrade_StartUpgrade, METH_VARARGS, "FirmwareUpgrade_StartUpgrade(FirmwareUpgrade self, iMS::FirmwareUpgrade::UpgradeTarget const target=SYNTHESISER) -> bool"},
+	 { "FirmwareUpgrade_VerifyIntegrity", _wrap_FirmwareUpgrade_VerifyIntegrity, METH_VARARGS, "FirmwareUpgrade_VerifyIntegrity(FirmwareUpgrade self, iMS::FirmwareUpgrade::UpgradeTarget const target=SYNTHESISER) -> bool"},
+	 { "FirmwareUpgrade_UpgradeDone", _wrap_FirmwareUpgrade_UpgradeDone, METH_O, "FirmwareUpgrade_UpgradeDone(FirmwareUpgrade self) -> bool"},
+	 { "FirmwareUpgrade_UpgradeError", _wrap_FirmwareUpgrade_UpgradeError, METH_O, "FirmwareUpgrade_UpgradeError(FirmwareUpgrade self) -> bool"},
+	 { "FirmwareUpgrade_GetUpgradeProgress", _wrap_FirmwareUpgrade_GetUpgradeProgress, METH_O, "FirmwareUpgrade_GetUpgradeProgress(FirmwareUpgrade self) -> FirmwareUpgradeProgress"},
+	 { "FirmwareUpgrade_GetUpgradeError", _wrap_FirmwareUpgrade_GetUpgradeError, METH_O, "FirmwareUpgrade_GetUpgradeError(FirmwareUpgrade self) -> FirmwareUpgradeError"},
+	 { "FirmwareUpgrade_GetTransferLength", _wrap_FirmwareUpgrade_GetTransferLength, METH_O, "FirmwareUpgrade_GetTransferLength(FirmwareUpgrade self) -> uint32_t"},
+	 { "FirmwareUpgrade_GetTotalTransferLength", _wrap_FirmwareUpgrade_GetTotalTransferLength, METH_O, "FirmwareUpgrade_GetTotalTransferLength(FirmwareUpgrade self) -> uint32_t"},
+	 { "FirmwareUpgrade_FirmwareUpgradeEventSubscribe", _wrap_FirmwareUpgrade_FirmwareUpgradeEventSubscribe, METH_VARARGS, "FirmwareUpgrade_FirmwareUpgradeEventSubscribe(FirmwareUpgrade self, int const message, IEventHandler handler)"},
+	 { "FirmwareUpgrade_FirmwareUpgradeEventUnsubscribe", _wrap_FirmwareUpgrade_FirmwareUpgradeEventUnsubscribe, METH_VARARGS, "FirmwareUpgrade_FirmwareUpgradeEventUnsubscribe(FirmwareUpgrade self, int const message, IEventHandler handler)"},
+	 { "FirmwareUpgrade_swigregister", FirmwareUpgrade_swigregister, METH_O, NULL},
+	 { "FirmwareUpgrade_swiginit", FirmwareUpgrade_swiginit, METH_VARARGS, NULL},
 	 { NULL, NULL, 0, NULL }
 };
 
@@ -80892,6 +82043,9 @@ static swig_type_info _swigt__p_iMS__FWVersion = {"_p_iMS__FWVersion", "iMS::FWV
 static swig_type_info _swigt__p_iMS__FileSystemManager = {"_p_iMS__FileSystemManager", "iMS::FileSystemManager *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__FileSystemTableEntry = {"_p_iMS__FileSystemTableEntry", "iMS::FileSystemTableEntry *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__FileSystemTableViewer = {"_p_iMS__FileSystemTableViewer", "iMS::FileSystemTableViewer *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_iMS__FirmwareUpgrade = {"_p_iMS__FirmwareUpgrade", "iMS::FirmwareUpgrade *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_iMS__FirmwareUpgradeError = {"_p_iMS__FirmwareUpgradeError", "iMS::FirmwareUpgradeError *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_iMS__FirmwareUpgradeProgress = {"_p_iMS__FirmwareUpgradeProgress", "iMS::FirmwareUpgradeProgress *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__Frequency = {"_p_iMS__Frequency", "iMS::Frequency *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__IConnectionSettings = {"_p_iMS__IConnectionSettings", "iMS::IConnectionSettings *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_iMS__IEventHandler = {"_p_iMS__IEventHandler", "iMS::IEventHandler *", 0, 0, (void*)0, 0};
@@ -81060,6 +82214,9 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_iMS__FileSystemManager,
   &_swigt__p_iMS__FileSystemTableEntry,
   &_swigt__p_iMS__FileSystemTableViewer,
+  &_swigt__p_iMS__FirmwareUpgrade,
+  &_swigt__p_iMS__FirmwareUpgradeError,
+  &_swigt__p_iMS__FirmwareUpgradeProgress,
   &_swigt__p_iMS__Frequency,
   &_swigt__p_iMS__IConnectionSettings,
   &_swigt__p_iMS__IEventHandler,
@@ -81228,6 +82385,9 @@ static swig_cast_info _swigc__p_iMS__FWVersion[] = {  {&_swigt__p_iMS__FWVersion
 static swig_cast_info _swigc__p_iMS__FileSystemManager[] = {  {&_swigt__p_iMS__FileSystemManager, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_iMS__FileSystemTableEntry[] = {  {&_swigt__p_iMS__FileSystemTableEntry, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_iMS__FileSystemTableViewer[] = {  {&_swigt__p_iMS__FileSystemTableViewer, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_iMS__FirmwareUpgrade[] = {  {&_swigt__p_iMS__FirmwareUpgrade, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_iMS__FirmwareUpgradeError[] = {  {&_swigt__p_iMS__FirmwareUpgradeError, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_iMS__FirmwareUpgradeProgress[] = {  {&_swigt__p_iMS__FirmwareUpgradeProgress, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_iMS__Frequency[] = {  {&_swigt__p_iMS__Frequency, 0, 0, 0},  {&_swigt__p_iMS__MHz, _p_iMS__MHzTo_p_iMS__Frequency, 0, 0},  {&_swigt__p_iMS__kHz, _p_iMS__kHzTo_p_iMS__Frequency, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_iMS__IConnectionSettings[] = {  {&_swigt__p_iMS__IConnectionSettings, 0, 0, 0},  {&_swigt__p_iMS__CS_ETH, _p_iMS__CS_ETHTo_p_iMS__IConnectionSettings, 0, 0},  {&_swigt__p_iMS__CS_RS422, _p_iMS__CS_RS422To_p_iMS__IConnectionSettings, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_iMS__IEventHandler[] = {  {&_swigt__p_iMS__IEventHandler, 0, 0, 0},{0, 0, 0, 0}};
@@ -81396,6 +82556,9 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_iMS__FileSystemManager,
   _swigc__p_iMS__FileSystemTableEntry,
   _swigc__p_iMS__FileSystemTableViewer,
+  _swigc__p_iMS__FirmwareUpgrade,
+  _swigc__p_iMS__FirmwareUpgradeError,
+  _swigc__p_iMS__FirmwareUpgradeProgress,
   _swigc__p_iMS__Frequency,
   _swigc__p_iMS__IConnectionSettings,
   _swigc__p_iMS__IEventHandler,
@@ -82236,6 +83399,18 @@ SWIG_init(void) {
   SWIG_Python_SetConstant(d, "Diagnostics_MEASURE_DC_CURRENT_CH2",SWIG_From_int(static_cast< int >(iMS::Diagnostics::MEASURE::DC_CURRENT_CH2)));
   SWIG_Python_SetConstant(d, "Diagnostics_MEASURE_DC_CURRENT_CH3",SWIG_From_int(static_cast< int >(iMS::Diagnostics::MEASURE::DC_CURRENT_CH3)));
   SWIG_Python_SetConstant(d, "Diagnostics_MEASURE_DC_CURRENT_CH4",SWIG_From_int(static_cast< int >(iMS::Diagnostics::MEASURE::DC_CURRENT_CH4)));
+  SWIG_Python_SetConstant(d, "FirmwareUpgradeEvents_FIRMWARE_UPGRADE_DONE",SWIG_From_int(static_cast< int >(iMS::FirmwareUpgradeEvents::FIRMWARE_UPGRADE_DONE)));
+  SWIG_Python_SetConstant(d, "FirmwareUpgradeEvents_FIRMWARE_UPGRADE_ERROR",SWIG_From_int(static_cast< int >(iMS::FirmwareUpgradeEvents::FIRMWARE_UPGRADE_ERROR)));
+  SWIG_Python_SetConstant(d, "FirmwareUpgradeEvents_FIRMWARE_UPGRADE_STARTED",SWIG_From_int(static_cast< int >(iMS::FirmwareUpgradeEvents::FIRMWARE_UPGRADE_STARTED)));
+  SWIG_Python_SetConstant(d, "FirmwareUpgradeEvents_FIRMWARE_UPGRADE_INITIALIZE_OK",SWIG_From_int(static_cast< int >(iMS::FirmwareUpgradeEvents::FIRMWARE_UPGRADE_INITIALIZE_OK)));
+  SWIG_Python_SetConstant(d, "FirmwareUpgradeEvents_FIRMWARE_UPGRADE_CHECKID_OK",SWIG_From_int(static_cast< int >(iMS::FirmwareUpgradeEvents::FIRMWARE_UPGRADE_CHECKID_OK)));
+  SWIG_Python_SetConstant(d, "FirmwareUpgradeEvents_FIRMWARE_UPGRADE_ENTER_UG_MODE",SWIG_From_int(static_cast< int >(iMS::FirmwareUpgradeEvents::FIRMWARE_UPGRADE_ENTER_UG_MODE)));
+  SWIG_Python_SetConstant(d, "FirmwareUpgradeEvents_FIRMWARE_UPGRADE_ERASE_OK",SWIG_From_int(static_cast< int >(iMS::FirmwareUpgradeEvents::FIRMWARE_UPGRADE_ERASE_OK)));
+  SWIG_Python_SetConstant(d, "FirmwareUpgradeEvents_FIRMWARE_UPGRADE_PROGRAM_OK",SWIG_From_int(static_cast< int >(iMS::FirmwareUpgradeEvents::FIRMWARE_UPGRADE_PROGRAM_OK)));
+  SWIG_Python_SetConstant(d, "FirmwareUpgradeEvents_FIRMWARE_UPGRADE_VERIFY_OK",SWIG_From_int(static_cast< int >(iMS::FirmwareUpgradeEvents::FIRMWARE_UPGRADE_VERIFY_OK)));
+  SWIG_Python_SetConstant(d, "FirmwareUpgradeEvents_FIRMWARE_UPGRADE_LEAVE_UG_MODE",SWIG_From_int(static_cast< int >(iMS::FirmwareUpgradeEvents::FIRMWARE_UPGRADE_LEAVE_UG_MODE)));
+  SWIG_Python_SetConstant(d, "FirmwareUpgrade_UpgradeTarget_SYNTHESISER",SWIG_From_int(static_cast< int >(iMS::FirmwareUpgrade::UpgradeTarget::SYNTHESISER)));
+  SWIG_Python_SetConstant(d, "FirmwareUpgrade_UpgradeTarget_CONTROLLER",SWIG_From_int(static_cast< int >(iMS::FirmwareUpgrade::UpgradeTarget::CONTROLLER)));
   
   /* Initialize threading */
   SWIG_PYTHON_INITIALIZE_THREADS;
